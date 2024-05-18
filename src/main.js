@@ -29,10 +29,10 @@ let config = {
             }
         }
     },
-    width: 1440,
-    height: 900,
+    width: window.innerWidth,
+    height: window.innerHeight,
     scene: [Load, Platformer]
-}
+};
 
 var cursors;
 const SCALE = 2.0;

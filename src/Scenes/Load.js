@@ -26,6 +26,8 @@ class Load extends Phaser.Scene {
         // The multiatlas was created using TexturePacker and the Kenny
         // Particle Pack asset pack.
         this.load.multiatlas("kenny-particles", "kenny-particles.json");
+
+    
     }
 
     create() {
@@ -61,6 +63,7 @@ class Load extends Phaser.Scene {
 
          // ...and pass to the next Scene
          this.scene.start("platformerScene");
+
     }
 
     // Never get here since a new scene is started in create()
